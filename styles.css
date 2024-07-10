@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    color: rgb(249, 248, 248);
+}
+
+h3{
+    font-weight: 600;
+    color: black;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(13, 13, 13);
+}
+
+.container{
+    position: relative;
+    background-color: rgb(26, 2, 75);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.3rem;
+}
+
+.task{
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+
+
+.tick p:nth-child(2){
+    text-decoration: line-through;
+}
+
+
+.heading{
+    top: -10px;
+    left: 15px;
+    position: absolute;
+    padding: 0.5rem;
+    background-color: rgb(78, 59, 117);
+    font-size: 0.8rem;
+    
+}
+.heading h3{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+
+}
